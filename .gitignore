@@ -1,0 +1,11 @@
+# Virtuele omgeving en caches
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# Build-uitvoer
+build/
+dist/
+*.egg-info/

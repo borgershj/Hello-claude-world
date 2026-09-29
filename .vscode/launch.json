@@ -1,0 +1,7 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    { "name": "Hello Claude World", "type": "debugpy", "request": "launch",
+      "module": "hello_claude_world", "console": "integratedTerminal" }
+  ]
+}

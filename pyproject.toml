@@ -1,0 +1,24 @@
+[project]
+name = "hello-claude-world"
+version = "0.1.0"
+description = "Testproject voor de Python-werkplek: print 'Hello world from Claude'."
+readme = "README.md"
+authors = [{ name = "Erik Borgers", email = "erikborgers@outlook.com" }]
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+hello-claude-world = "hello_claude_world:main"
+
+[dependency-groups]
+dev = ["pytest>=9", "ruff>=0.16"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100

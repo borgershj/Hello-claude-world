@@ -1,7 +1,7 @@
 # hello-claude-world
 
 Testproject voor de Python-werkplek. Print `Hello world from Claude`.
-De algemene werkafspraken staan in `~/.claude/CLAUDE.md`; hier alleen wat specifiek is voor dit project.
+De algemene werkafspraken staan in `C:\Users\erikb\Source\CLAUDE.md`; hier alleen wat specifiek is voor dit project.
 
 ## Commando's
 
@@ -9,6 +9,7 @@ De algemene werkafspraken staan in `~/.claude/CLAUDE.md`; hier alleen wat specif
 - Programma draaien: `uv run hello-claude-world`
 - Tests: `uv run pytest`
 - Lint en format: `uv run ruff check` en `uv run ruff format`
+- Typecontrole: `uv run pyright`
 
 ## Structuur
 
@@ -21,4 +22,10 @@ De algemene werkafspraken staan in `~/.claude/CLAUDE.md`; hier alleen wat specif
 
 - Python-versie staat in `.python-version` (3.13); wijzig die niet zonder te overleggen.
 - Dependencies alleen via `uv add` (runtime) of `uv add --dev` (ontwikkeling); nooit met pip in de `.venv`.
-- Na elke codewijziging: `uv run pytest` en `uv run ruff check` moeten slagen.
+- Na elke codewijziging: `uv run pytest`, `uv run ruff check` en `uv run pyright` moeten slagen.
+
+## Planning en afwijkingen
+
+- Bord: GitHub Project `hello-claude-world` (kanban), gekoppeld aan repo `borgershj/hello-claude-world`.
+- Openstaande afwijkingen staan als `# TODO(afwijking): ...` in de code; ik bekijk ze in Better Todo Tree.
+- Bekende afwijking: de headers vermelden nog Donateware in plaats van een open source statement.

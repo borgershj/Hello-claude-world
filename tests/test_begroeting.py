@@ -2,7 +2,6 @@
 Tests voor Begroeting en main.
 
 Auteur:   Erik Borgers
-Versie:   0.1.0
 Licentie: Donateware - vrij te gebruiken en te verspreiden; een donatie wordt gewaardeerd.
 """
 # TODO(afwijking): header met open source statement - licentie is nog Donateware

@@ -1,6 +1,6 @@
 # hello-claude-world
 
-Testproject voor de Python-werkplek. Print `Hello world from Claude`.
+Testproject voor de Python-werkplek. Toont `Hello world from Claude` in een venster met een OK-knop (tkinter).
 De algemene werkafspraken staan in `C:\Users\erikb\Source\CLAUDE.md`; hier alleen wat specifiek is voor dit project.
 
 ## Commando's
@@ -14,7 +14,7 @@ De algemene werkafspraken staan in `C:\Users\erikb\Source\CLAUDE.md`; hier allee
 ## Structuur
 
 - `src/hello_claude_world/begroeting.py` - class `Begroeting`, levert de tekst
-- `src/hello_claude_world/__init__.py` - `main()`, het startpunt (ook `[project.scripts]`)
+- `src/hello_claude_world/__init__.py` - `main()`, het startpunt (ook `[project.scripts]`), en `toon_venster()`
 - `src/hello_claude_world/__main__.py` - maakt `python -m hello_claude_world` en F5 in VS Code mogelijk
 - `tests/` - pytest-tests
 

@@ -1,7 +1,7 @@
 [project]
 name = "hello-claude-world"
-version = "0.1.0"
-description = "Testproject voor de Python-werkplek: print 'Hello world from Claude'."
+version = "0.1.1"
+description = "Testproject voor de Python-werkplek: toont 'Hello world from Claude' in een venster."
 readme = "README.md"
 authors = [{ name = "Erik Borgers", email = "erikborgers@outlook.com" }]
 requires-python = ">=3.13"

@@ -2,9 +2,8 @@
 Tests voor Begroeting en main.
 
 Auteur:   Erik Borgers
-Licentie: Donateware - vrij te gebruiken en te verspreiden; een donatie wordt gewaardeerd.
+Licentie: MIT - open source; zie https://opensource.org/license/mit
 """
-# TODO(afwijking): header met open source statement - licentie is nog Donateware
 
 from __future__ import annotations
 

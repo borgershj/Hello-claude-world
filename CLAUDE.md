@@ -23,9 +23,10 @@ De algemene werkafspraken staan in `C:\Users\erikb\Source\CLAUDE.md`; hier allee
 - Python-versie staat in `.python-version` (3.13); wijzig die niet zonder te overleggen.
 - Dependencies alleen via `uv add` (runtime) of `uv add --dev` (ontwikkeling); nooit met pip in de `.venv`.
 - Na elke codewijziging: `uv run pytest`, `uv run ruff check` en `uv run pyright` moeten slagen.
+- Licentie: MIT. Elk bestand bevat in de header dit open source statement:
+  `Licentie: MIT - open source; zie https://opensource.org/license/mit`.
 
 ## Planning en afwijkingen
 
-- Bord: GitHub Project `hello-claude-world` (kanban), gekoppeld aan repo `borgershj/hello-claude-world`.
+- Bord: GitHub Project `hello-claude-world` (nummer 1, kanban), gekoppeld aan repo `borgershj/Hello-claude-world`.
 - Openstaande afwijkingen staan als `# TODO(afwijking): ...` in de code; ik bekijk ze in Better Todo Tree.
-- Bekende afwijking: de headers vermelden nog Donateware in plaats van een open source statement.
